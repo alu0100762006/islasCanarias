@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Saborea las Islas Canarias</title>
+        <!--Hoja de estilos-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--Responsivo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Fuentes del menu y los social media-->
+        <link rel="stylesheet" href="css/font.css">
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+    <body>
+        <header class="header">
+            <div class="contenedor">
+                <h1 class="logo">Saborea las Islas Canarias</h1>
+                <span class="icon-menu" id="btn-menu"></span>
+                <nav class="nav" id="nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__link" href="inicio.html">Inicio</a></li>
+                        <li class="menu__item"><a class="menu__link" href="islas.html">Nuestras islas</a></li>
+                        <li class="menu__item"><a class="menu__link" href="recetas.html">Recetas</a></li>
+                        <li class="menu__item"><a class="menu__link select" href="restaurantes.html">Restaurantes</a></li>
+                        <li class="menu__item"><a class="menu__link" href="contactos.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="banner">
+            <img src="img/banner11.jpeg" alt="" class="banner__img">
+            <div class="contenedor">
+                <h2 class="banner__titulo">Visita nuestros restaurantes y guachinches</h2>
+            </div>
+        </div>
+        <main class="main">
+            <div class="contenedor">
+                <section class="recetas">
+                    <h2 class="section__titulo">Nuestros Restaurantes</h2>
+                    <div class="recetas__columna">
+                        <img src="img/restaurante3.jpg" alt="" class="recetas__img">
+                        <div class="recetas__descripcion">
+                            <h3 class="recetas__titulo">Delicias del Mar</h3>
+                            <p class="recetas__txt">Marisco Mediterráneo en la isla de Tenerife</p>
+                        </div>
+                    </div>
+                    <div class="recetas__columna">
+                        <img src="img/restaurante2.jpg" alt="" class="recetas__img">
+                        <div class="recetas__descripcion">
+                            <h3 class="recetas__titulo">El guachinche de luis</h3>
+                            <p class="recetas__txt">Restaurante acogedor en la isla de Lanzarote</p>
+                        </div>
+                    </div>
+                    <div class="recetas__columna">
+                        <img src="img/restaurante4.jpg" alt="" class="recetas__img">
+                        <div class="recetas__descripcion">
+                            <h3 class="recetas__titulo">Restaurante la Marquesina</h3>
+                            <p class="recetas__txt">Prueba la famosa paella de marisco en este maravilloso restaurante en la isla de Fuerteventura</p>
+                        </div>
+                    </div>
+                    <div class="recetas__columna">
+                        <img src="img/restaurante1.jpg" alt="" class="recetas__img">
+                        <div class="recetas__descripcion">
+                            <h3 class="recetas__titulo">Bar Terraza la Chalana</h3>
+                            <p class="recetas__txt">Pequeño Bar en la isla de la Gomera donde probar nuestro delicioso marisco</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!--Foro-->
+       
+        <!--Contenedor Principal-->
+        <div class="foro">
+            <div class="comments-container">
+                <h1>Escribe un comentario</h1>
+                 <form>
+                    <div class="container-inputs">
+                     <input type="text" name="nombre" 
+                     placeholder="Nombre" class="input-48">
+                     <input type="text" comment="comentario" 
+                     placeholder="Escribe un comentario... " class="input-100">
+                     <input type="submit" value="Publicar" class="btn-enviar">
+                     </div>
+                 </form>
+                <ul id="comments-list" class="comments-list">
+                    <li>
+                        <div class="comment-main-level">
+                            <!--Avatar-->
+                            <div class="comment-avatar"><img src="img/perfil1.jpg" alt=""></div>
+                            <!--Contenedor del comentario-->
+                            <div class="comment-box">
+                                <div class="comment-head">
+                                    <h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Agustin Ortiz</a></h6>
+                                    <span>hace 20 minutos</span>
+                                    <i class="fas fa-reply"></i>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div class="comment-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda itaque ad, minima eveniet laboriosam beatae, saepe nulla ipsam tempore maxime.
+                                </div>
+                            </div>
+                        </div>
+                        <!--Respuesta de los comentarios-->
+                        <ul class="comments-list reply-list">
+                            <li>
+                                <!--Avatar-->
+                                <div class="comment-avatar"><img src="img/perfil2.jpg" alt=""></div>
+                                <!--Contenedor del comentario-->
+                                <div class="comment-box">
+                                    <div class="comment-head">
+                                        <h6 class="comment-name"><a href="http://creaticode.com/blog">Lorena Rojero</a></h6>
+                                        <span>hace 10 minutos</span>
+                                        <i class="fas fa-reply"></i>
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div class="comment-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda itaque ad, minima eveniet laboriosam beatae, saepe nulla ipsam tempore maxime.
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <!--Avatar-->
+                                <div class="comment-avatar"><img src="img/perfil1.jpg" alt=""></div>
+                                <!--Contenedor del comentario-->
+                                <div class="comment-box">
+                                    <div class="comment-head">
+                                        <h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Agustin Ortiz</a></h6>
+                                        <span>hace 10 minutos</span>
+                                        <i class="fas fa-reply"></i>
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div class="comment-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda itaque ad, minima eveniet laboriosam beatae, saepe nulla ipsam tempore maxime.
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <div class="comment-main-level">
+                            <!--Avatar-->
+                            <div class="comment-avatar"><img src="img/perfil2.jpg" alt=""></div>
+                            <!--Contenedor del comentario-->
+                            <div class="comment-box">
+                                <div class="comment-head">
+                                    <h6 class="comment-name"><a href="http://creaticode.com/blog">Lorena Rojero</a></h6>
+                                    <span>hace 10 minutos</span>
+                                    <i class="fas fa-reply"></i>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div class="comment-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda itaque ad, minima eveniet laboriosam beatae, saepe nulla ipsam tempore maxime.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="social">
+                <a href="" class="icon-facebook"></a>
+                <a href="" class="icon-twitter"></a>
+                <a href="" class="icon-instagram"></a>
+            </div>
+            <p class="copy">&copy; Saborea nuestras islas - Todos los derechos reservados</p>
+        </footer>
+        <script src="js/menu.js"></script>
+    </body>
+</html>

@@ -5,4 +5,4 @@
 ### Gastronomía Canaria
 #### Mi proyecto está basado en la creación de una página web sobre las islas canarias y su gastronomía.
 
-enlace para acceder a la página -> https://alu0100762006.github.io/islasCanarias/
+enlace para acceder a la página -> https://alu0100762006.github.io/islasCanarias/index.html
